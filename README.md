@@ -2,7 +2,8 @@
 A geo-ip ip2location wrapper for laravel
 
 ## Instructions
-In order to use this package, you'll need to download the ip2location databases from https://lite.ip2location.com/ip2location-lite
+In order to use this package, you'll need to download the ip2location databases from https://lite.ip2location.com/ip2location-lite .
+
 After installing the package with composer, simply create a new instance of IP2Location and do whatever you need, e.g.:
 
 ```php
