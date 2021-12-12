@@ -1,0 +1,27 @@
+{
+    "name": "volmaticmw5/ip2location",
+    "description": "IP2location wrapper for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volmatic",
+            "email": "volmaticmw5@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "volmaticmw5\\ip2location\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "volmaticmw5\\ip2location\\IP2LocationServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^6|^7|^8"
+    }
+}
